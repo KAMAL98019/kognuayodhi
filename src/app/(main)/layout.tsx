@@ -1,5 +1,5 @@
 import Navbar from "@/pages/layout/navbar"
-
+import Footer from "@/pages/layout/footer"
 export default function PageLayout({
     children,
   }: {
@@ -9,6 +9,7 @@ export default function PageLayout({
       <>
         <Navbar />
         {children}
+        <Footer/>
       </>
     )
   }
