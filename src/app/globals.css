@@ -16,6 +16,6 @@ body{
     overflow: auto;
 }
 
-.navbar{
+.navbar,.footer{
     background-color: var(--Chardon);
 }
