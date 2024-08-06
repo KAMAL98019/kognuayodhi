@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="w-full flex items-center justify-between p-2 navbar">
+      <nav className="w-full flex items-center h-[5rem] justify-between p-2 navbar">
         <div className="flex items-center">
           <ul className="list-none flex space-x-4 text-[#758694] hidden sm:flex">
             <li className="p-[5px]">
