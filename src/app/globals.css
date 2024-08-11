@@ -19,3 +19,13 @@ body{
 .navbar,.footer{
     background-color: var(--Chardon);
 }
+
+
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  .animate-blink {
+    animation: blink 3s infinite;
+  }

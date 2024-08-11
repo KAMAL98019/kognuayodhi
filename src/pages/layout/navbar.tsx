@@ -27,22 +27,22 @@ const Navbar: React.FC = () => {
           <HiMiniBars3  size={20} onClick={toggleActive}/>
         </div>
         <div className="absolute cursor-pointer left-2 sm-max:hidden md-max:hidden">
-        <ul className="flex list-none  w-full text-[#758694] font-light text-[12px]">
+        <ul className="flex list-none  w-full text-[#758694] font-light text-[16px]">
         <Link href='/'><li className="p-2">Home</li></Link>
-        <Link href="/razorpaypage"><li className="p-2">Donate</li></Link>
-        <li className="p-2">About us</li>
+        {/* <Link href="/"><li className="p-2">Donate</li></Link> */}
+        {/* <li className="p-2">About us</li> */}
         </ul>
         </div>
         <div className="absolute right-2
                  text-[#758694] sm-max:hidden md-max:hidden">
                   <div className="flex ">
                   <div className="flex mr-2">
-           <BiPhone size={16} />
-            <p className="text-[12px] font-medium ml-1">  +91 9443347746</p>
+           <BiPhone size={16}  className="mt-1"/>
+            <p className="text-[16px] font-medium ml-1">  +91 9443347746</p>
             </div>
                   <div className="flex mr-2 ">
-            <CiMail size={16} />
-            <p className="text-[12px] font-medium ml-1">srivatsatrust2010@gmail.com</p>
+            <CiMail size={17} className="mt-1" />
+            <p className="text-[16px] font-medium ml-1">srivatsatrust2010@gmail.com</p>
           </div>
           {/* <div className="flex   space-x-2">
             <AiFillInstagram size={16} />

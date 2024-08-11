@@ -42,6 +42,14 @@ const Footer = () =>{
           </div>
                 </div>
             </div>
+            <div className="smxsmall:block   sm-max:block  mt-2 md-max:w-[70%] w-[40%]">
+                <div className=" block">
+                    <h1 className="text-[14px] font-bold">Address</h1>
+                    <div className="flex mr-2 ">
+            <p className="text-[12px] font-medium ">218,Easwaranstreet, GandhijiRoad, (opp) Fireservice Station  erode.1,L372D, KOOTTAPALLI,</p>
+          </div>
+                </div>
+            </div>
             </div>
         </div>
     )
